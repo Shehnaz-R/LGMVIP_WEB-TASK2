@@ -1,0 +1,69 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background-color:black; */
+  background-image: linear-gradient(45deg,#000000,#f2f2f2);
+}
+
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* background-color:blue; */
+}
+
+.user-card {
+  border: 2px solid #d06767;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.9);
+  width: 250px;
+  text-align: left;
+  background-image: linear-gradient(50deg,#c94f4f,#d1d1d1);
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 80%;
+  margin-bottom: 10px;
+   background-color:blue;
+  box-shadow: 0 8px 8px rgb(242, 13, 13, 0.9);
+}
+
+.user-info {
+  text-align: left;
+ 
+}
+
+.navbar {
+  background-image: linear-gradient(65deg,#fb2d2d,#d1d1d1);
+  background-color: #f0f0f0; 
+  padding: 14px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.navbar h1 {
+  margin: 0; /* Remove default heading margins */
+}
+.content {
+  margin-top: 20px; /* Add a top margin for spacing */
+}
+.load-button {
+  /* background-color: #363a36;  */
+  background-image: linear-gradient(65deg,#000000, #585f58);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.load-button:hover {
+  background-color: #6b706c; 
+}
